@@ -1,9 +1,13 @@
 name: Build
 
+#on:
+  #push:
 on:
-  push:
+  watch:
+    types: started
     标签:
        - v5.**
+
 
 jobs:
   build:
