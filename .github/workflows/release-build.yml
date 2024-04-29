@@ -1,8 +1,13 @@
 name: Build
 
+#on: 
+
+   #push:
+     #标签:
+      # - v5.**
 on:
   push:
-    tags:
+    branches:
       - v5.**
 
 jobs:
